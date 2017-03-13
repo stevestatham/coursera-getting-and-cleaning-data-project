@@ -94,4 +94,4 @@ for (i in 1:nSubjects) {
     row = row+1
   }
 }
-write.table(result, "tidy.txt")
+write.table(result, "tidy.txt", row.name=FALSE)
